@@ -1,0 +1,167 @@
+/* index */
+.navbar {
+    background-color: #D9D9D9;
+}
+.parallax {
+  background-image: url("main.jpg");
+  opacity: 80%;
+  min-height: 900px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: right;
+}
+.find-me {
+  margin-top: 200px;
+ 
+}
+.blink {
+  animation: blinker 1.5s linear infinite;
+  color: red;
+  font-family: sans-serif;
+}
+@keyframes blinker {
+  50% {
+      opacity: 0;
+  }
+}
+
+.helpus {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+}
+
+.helpus:hover {
+  font-size: 50px;
+}
+.helpus-items {
+  height: 380px;
+}
+
+.wanted-person {
+  background-image: url("wanted.png");
+}
+
+.missing-person {
+  background-image: url("missing.png");
+
+  /* filter: blur(8px);
+  -webkit-filter: blur(2px); */
+  
+ 
+}
+.scam {
+  background-image: url("scam.png");
+
+}
+section {
+  background-color: #97a1ad;
+  height: 850px;
+}
+/* index */
+
+
+
+/* about */
+.about-container {
+    background-color: #08376B;
+}
+
+.holdhands {
+  max-width: 600px;
+
+
+}
+.helpprotect {
+  background-image: url("holdhands.jpg");
+  opacity: 70%;
+  font-size: 40px;
+  font-weight: 800;
+  padding-left: 30px;
+  padding-top: 1px;
+ 
+}
+.quote-blinker {
+  animation: blinker 4.5s linear infinite;
+  color: rgb(3, 201, 39);
+  font-family: sans-serif;
+}
+@keyframes blinker {
+  20% {
+      opacity: 0;
+  }
+}
+
+/* about */
+
+
+
+
+
+
+
+
+/* mostwanted */
+.most-wanted-photo {
+  max-width: 200px;
+  height: 200px;
+  margin-right: auto;
+  margin-left: auto;
+  align-content: center;
+   
+}
+.most-wanted-photo:hover {
+    max-width: 300px;
+    width: 300px;
+    height: 300px;
+}
+
+.name,
+.region
+  {
+  text-align: center;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+.title {
+  font-size: 30px;
+}
+.container-wanted {
+  text-align: left;
+}
+.image-container {
+  text-align: center;
+}
+.top-photo{
+  max-width: 300px;
+  height: 300px;
+
+}
+
+/* missing */
+
+.missing-photo {
+  max-width: 200px;
+  height: 200px;
+  margin-right: auto;
+  margin-left: auto;
+  align-content: center;
+   
+}
+.missing-photo:hover {
+    max-width: 300px;
+    width: 300px;
+    height: 300px;
+}
+.scams-and-crimes{
+  background-color: gray;
+}
+
+.scams-and-crimes:hover{
+  background-color: #08376B;
+}
+
