@@ -27,20 +27,21 @@
   }
 }
 
-.helpus {
+ .helpus {
   display: flex;
   justify-content: center;
   flex-direction: column;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   text-align: center;
+  height: 380px;
+  width: 320px;
 }
+
 
 .helpus:hover {
   font-size: 50px;
 }
-.helpus-items {
-  height: 380px;
-}
+
 
 .wanted-person {
   background-image: url("wanted.png");
@@ -165,3 +166,6 @@ section {
   background-color: #08376B;
 }
 
+.contact-container {
+  background-color: #08376B;
+}
