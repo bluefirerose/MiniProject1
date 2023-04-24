@@ -169,3 +169,19 @@ section {
 .contact-container {
   background-color: #08376B;
 }
+
+
+/* found photo */
+.found-photo {
+  max-width: 200px;
+  height: 200px;
+  margin-right: auto;
+  margin-left: auto;
+  align-content: center;
+   
+}
+.found-photo:hover {
+    max-width: 300px;
+    width: 300px;
+    height: 300px;
+}
