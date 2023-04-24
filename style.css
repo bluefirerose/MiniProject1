@@ -87,7 +87,7 @@ section {
  
 }
 .quote-blinker {
-  animation: blinker 4.5s linear infinite;
+  animation: blinker 4.5s linear;
   color: rgb(3, 201, 39);
   font-family: sans-serif;
 }
