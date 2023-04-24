@@ -36,7 +36,30 @@
   
         <main>
             <div class="row">
-                <div class="title col-md-12 fw-bold text-center mt-5 text-decoration-underline">Most Wanted</div>
+                <div class="title col-md-12 fw-bold text-center mt-5 text-decoration-underline">Most Wanted </div>
+            </div>
+            <div class="container m-3 ">
+                <div class="row justify-content-end">
+                    <div class="col-md-6">
+                        <form class="d-flex" role="search ">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+                            <button class="btn btn-outline-primary" type="submit"> Search </button>
+                            <div class="btn-group" role="group">
+                              <button type="button" class="bi bi-sort-up btn btn-light dropdown-toggle ms-3" data-bs-toggle="dropdown" aria-expanded="false">
+                                <svg  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-sort-up" viewBox="0 0 16 16">
+                                  <path d="M3.5 12.5a.5.5 0 0 1-1 0V3.707L1.354 4.854a.5.5 0 1 1-.708-.708l2-1.999.007-.007a.498.498 0 0 1 .7.006l2 2a.5.5 0 1 1-.707.708L3.5 3.707V12.5zm3.5-9a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zM7.5 6a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5zm0 3a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1h-3zm0 3a.5.5 0 0 0 0 1h1a.5.5 0 0 0 0-1h-1z"/>
+                                </svg>
+                                Sort
+                              </button>
+                              <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Name</a></li>
+                                <li><a class="dropdown-item" href="#">Region</a></li>
+                                <li><a class="dropdown-item" href="#">Reward</a></li>
+                              </ul>
+                            </div>
+                          </form>
+                    </div>
+                </div>
             </div>
             <div class="most-wanted-container col-md-12 p-5  ">
                 <div class="row justify-content-center">
